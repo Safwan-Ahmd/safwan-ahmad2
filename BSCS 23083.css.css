@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color:grey;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:orange;
+}
+.about-us {
+    background: url(pexels-abdulwahab-alawadhi-4967937.jpg) no-repeat center;
+    background-size: cover;    height: 505px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color:black;
+    color:orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color:rgb(48, 48, 47);
+}
+
+footer {
+    background-color:black;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+.product {
+    background-color: black;
+    background-image: url(images.png);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:orange
+}
+
+.product-box {
+    background-color:black;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.product-box img {
+    width: 80%; 
+    height: 80;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact {
+    background-color: black;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-image: url(images.png);
+}
+
+.contact-box {
+    text-decoration: none;
+    color:darkgrey;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-box img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
